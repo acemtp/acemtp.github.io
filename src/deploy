@@ -1,0 +1,6 @@
+echo Are you sure you want to deploy in production? \(ctrl-c if not\)
+read
+
+NODE_ENV=production node build.js
+
+cp -a ./.build/prod/ ..

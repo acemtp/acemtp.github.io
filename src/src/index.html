@@ -1,0 +1,32 @@
+---
+title: Open source Helpdesk tool
+layout: layout.html
+hideFeatures: true
+---
+<div class="panel panel-default">
+  <div class="panel-body">
+    <h3>Foreword</h3>
+    <p> hello and welcome,<p>
+    <p>
+      You will find here all of Open Source Helpdesk, live chat, and knowledge base.
+      Thoses Open source software are for personnel and enterprise use. We hope you will find your happiness...
+      This list is fulfilled by Talkus: a commercial software at an affordable price that may interest you if you are looking for an easy and simple to use Helpdesk.
+    </p>
+    <p>
+      If we have missed some software, or if you want more information about Talkus, feel free to drop us an email at: contact@talkus.io
+    </p>
+    <p>
+      New Heldesk, live chat and Knowledge base software is available. Some are still in development, we invite you to test them and make your contributions.
+    </p>
+  </div>
+</div>
+{{> talkus}}
+{{#each collections.helpdesk}}
+  {{> tool}}
+{{/each}}
+{{#each collections.livechat}}
+  {{> tool}}
+{{/each}}
+{{#each collections.knowledgebase}}
+  {{> tool}}
+{{/each}}

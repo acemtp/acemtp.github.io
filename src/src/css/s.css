@@ -1,0 +1,126 @@
+body {
+/*  padding-top: 5rem;*/
+  font-family: 'Lato', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #FDFDFD;
+}
+
+.starter-template {
+  padding: 80px 1.5rem;
+  text-align: center;
+}
+
+.starter-template .js-input {
+  border: 0;
+}
+
+.starter-template h2 {
+  padding-bottom: 40px;
+  color: white;
+}
+
+.content {
+  padding-top: 50px;
+}
+
+.content h5 {
+  padding-top: 30px;
+  padding-bottom: 16px;
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.footer {
+  padding-top: 96px;
+  font-size: 13px;
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.overflow_ellipsis {
+  display: block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.js-header img {
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.body-newses .talkus-newses-subscribe {
+  padding-top: 30px;
+}
+
+.body-newses .talkus-newses-subscribe .card {
+  border: 1px solid #F0F0F0;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  margin-bottom: 0;
+}
+
+.body-newses .talkus-card {
+  margin-bottom: 50px;
+}
+
+.body-newses .talkus-card-date a {
+  color: inherit;
+  text-decoration: underline;
+}
+
+.body-newses div.talkus-card-inline-buttons {
+  background-color: white;
+  border-top: 1px solid #e9e9f7;
+  text-align: left;
+}
+
+.body-newses span.talkus-card-inline-button {
+  border: none;
+  cursor: default;
+}
+
+.body-newses span.talkus-card-inline-button:first-child {
+  border: none;
+}
+
+.body-newses span.talkus-card-inline-button * {
+  cursor: default;
+}
+
+
+.body-newses span.talkus-card-inline-button:hover {
+  background-color: white;
+}
+
+.share {
+  float: right;
+  font-size: 20px;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+@font-face {
+  font-family: 'piqad';
+  src: url('http://noxxy.alwaysdata.net/piqad.eot');
+  src: url('http://noxxy.alwaysdata.net/piqad.eot?#iefix') format('embedded-opentype'),url('http://noxxy.alwaysdata.net/piqad.woff') format('woff'),url('http://noxxy.alwaysdata.net/piqad.ttf') format('truetype'),url('http://noxxy.alwaysdata.net/piqad.svg#piqad') format('svg');
+  font-weight: normal;
+  font-style: normal
+}
+
+html.klingon {
+  font-family: 'piqad', 'Lato', sans-serif;
+  font-size: 14px;
+}
+
+html.klingon div, html.klingon span ,html.klingon p {
+  font-family: 'piqad', 'Lato', sans-serif;
+}

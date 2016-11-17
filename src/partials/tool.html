@@ -1,0 +1,19 @@
+<article>
+  <header>
+    <h2><a href="{{ path }}">{{name}}</a></h2>
+    <ul><li>site: <a href="{{link}}" title="{{link}}">{{link}}</a></li><li>source: <a href="{{source}}">{{source}}</a></li></ul>
+  </header>
+  <p class="description">
+    {{description}}
+  </p>
+  {{#if features}}
+  <div class="features">
+    Features:
+    <ul>
+      {{#each features}}
+        <li><a href="{{link}}">{{name}}</a></li>
+      {{/each}}
+    </ul>
+  </div>
+  {{/if}}
+</article>     

@@ -1,0 +1,23 @@
+{{> header}}
+<div class="container">
+  <div class="row">
+    <h1><a href="/" title="Home page">Opensource Helpdesk</a></h1>
+  </div>
+  <div class="row">
+    <div class="col-xs-3 talkus-sidebar">
+      {{> talkus-sidebar}}
+    </div>
+    <div class="col-xs-9">
+      <div class="row">
+        <div class="col-xs-12">
+          {{> navbar}}
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          {{{contents}}}
+        </div>
+      </div>
+    </div>
+  </div>
+  {{> footer}}

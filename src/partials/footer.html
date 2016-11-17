@@ -1,0 +1,34 @@
+<section id="footer" class="container services">
+  <div class="row">
+    <div class="footer col-sm-10 col-sm-offset-1">
+      <a href="/">Helpdesk</a>
+      <a href="/livechat.html">Live chat</a>
+      <a href="/knowledgebase.html">knowledge base / FAQ</a>
+      <span class="pull-right">© 2016 <a href="https://talkus.io?ref=osh">Talkus</a></span>
+    </div>
+  </div>
+</div>
+
+<script type="text/javascript" src="/js/bootstrap.js"></script>
+<script type="text/javascript">
+  new WOW().init();
+</script>
+
+{{> talkus-plugin}}
+
+<script>
+  if(window.location.hostname !== 'localhost') {
+    console.log('setup ga');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-71148241-4', 'auto');
+    ga('send', 'pageview');
+  } else {
+    console.log('no ga');
+  }
+</script>
+</body>
+</html>
