@@ -1,25 +1,5 @@
-  <!-- old talkus plugin -->
-  <!--<script>
-    (function(t,a,l,k,u,s,_){if(!t[u]){t[u]=function(){(t[u].q=t[u].q||[]).push(arguments)},t[u].l=1*new Date();s=a.createElement(l),_=a.getElementsByTagName(l)[0];s.async=1;s.src=k;_.parentNode.insertBefore(s,_)}})(window,document,'script','//www.talkus.io/plugin.js','talkus');
-    talkus('create', 'ZwKAfYy7xPGBirkhW');
-    talkus('bubble', {
-      userName: 'Vianney',
-      userPicture: 'https://secure.gravatar.com/avatar/85b54c9b60eac1bc9ce678844445d27d.jpg?s=48&d=https%3A%2F%2Fslack.global.ssl.fastly.net%2F66f9%2Fimg%2Favatars%2Fava_0016-48.png',
-      delay: 5,
-      message: 'Hi, nice to meet you!\nWant to try Talkus? Chat with us!',
-      welcomeMessage: '*Welcome to Talkus*.\n\nEven if you don\'t have questions, chat with us to test the service.\n\nWe\'ll be happy to talk with you, you\'ll never bother us.',
-    });
-  </script>-->
-
-  <!-- new talkus plugin -->
-  <script>
-    {{#if (production)}}
-      {{#if (staging)}}
-        (function(t,a,l,k,u,s,e){if(!t[u]){t[u]=function(){(t[u].q=t[u].q||[]).push(arguments)},t[u].l=1*new Date();s=a.createElement(l),e=a.getElementsByTagName(l)[0];s.async=1;s.src=k;e.parentNode.insertBefore(s,e)}})(window,document,'script','https://staging.talkus.io:30443/plugin.beta.js','talkus');
-        talkus('init', 'Staging1AceXxxxxx');
-      {{else}}
-        (function(t,a,l,k,u,s,e){if(!t[u]){t[u]=function(){(t[u].q=t[u].q||[]).push(arguments)},t[u].l=1*new Date();s=a.createElement(l),e=a.getElementsByTagName(l)[0];s.async=1;s.src=k;e.parentNode.insertBefore(s,e)}})(window,document,'script','https://www.talkus.io/plugin.beta.js','talkus');
-        talkus('init', 'ZwKAfYy7xPGBirkhW');
-      {{/if}}
-    {{/if}}
-  </script>
+<!-- new talkus plugin -->
+<script>
+  (function(t,a,l,k,u,s,e){if(!t[u]){t[u]=function(){(t[u].q=t[u].q||[]).push(arguments)},t[u].l=1*new Date();s=a.createElement(l),e=a.getElementsByTagName(l)[0];s.async=1;s.src=k;e.parentNode.insertBefore(s,e)}})(window,document,'script','https://www.talkus.io/plugin.beta.js','talkus');
+  talkus('init', 'KWzJMAx6vpjTwYcTT');
+</script>
