@@ -3,4 +3,8 @@ read
 
 NODE_ENV=production node build.js
 
+echo copy build to root
 cp -a ./.build/prod/ ..
+
+echo commit modification
+git commit -am "New deploy"
