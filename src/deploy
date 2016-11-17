@@ -7,5 +7,6 @@ echo copy build to root
 cp -a ./.build/prod/ ..
 
 echo commit modification
+git add ..
 git commit -am "New deploy"
 git pull && git push
